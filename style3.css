@@ -1,0 +1,303 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+#container-header{
+    padding: 0px 20px 0px 20px;
+    max-width: 100%;
+}
+
+#sidebarCollapse{
+    color: rgb(95, 94, 94);
+    background-color: #fff;
+    border-color: #fff;
+    font-size: 1.0rem;
+}
+
+.navbar{
+    padding: .5rem 0rem !important;
+    margin-bottom: 0px !important;
+}
+
+#sterling-logo{
+    color: black;
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+#sterling-logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#sterling-logo-box sup{
+    color: rgb(126, 124, 124);
+    top: -.9rem;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+}
+
+.navbar .row{
+    width: 100%;
+    align-items: center;
+}
+
+#top-search-button{
+    padding-top: 15px;
+    padding-right: 0px;
+}
+
+#search-btn{
+    padding-left: 0px;
+}
+
+#formGroupExampleInput{
+    border-radius: 1.5px;
+    border-right: 0.5px;
+}
+
+#search-click{
+    border-radius: 1.5px;
+    background-color: rgb(240, 239, 239);
+    width: 75px;
+}
+
+#rhs-icons{
+    padding-right: 0px;
+    text-align: right;
+}
+
+#rhs-icons span a{
+    margin-left: 25px;
+    color: black;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background:#fff;
+    color: rgb(2, 2, 2);
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#sidebar .sidebar-content{
+    position: relative;
+    top: 65px;
+}
+
+#sidebar .sidebar-header {
+    padding: 10px;
+    background: #fff;
+    border-bottom: 0.5px solid rgb(230, 228, 228);
+    position: fixed;
+    top: 0px;
+    width: 250px;
+    z-index: 998;
+}
+
+#sidebar .sidebar-header a{
+    text-decoration: none;
+}
+
+#sidebar ul.components {
+    padding: 1px 0px;
+    border-bottom: 0.5px solid rgb(230, 228, 228);
+}
+
+
+#sidebar ul.components a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+
+#sidebar ul p {
+    color: rgb(110, 109, 109);
+    margin-left: 10px;
+    font-size: 1.75rem;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1em;
+    display: block;
+}
+
+#sidebar ul li a span{
+    margin-right: 25px;
+}
+
+#sidebar ul li a:hover {
+    color: black;
+    background: #fff;
+    background-color: rgb(245, 244, 243);
+}
+
+
+#home-box{
+    background-color: rgb(233, 232, 232);
+    font-weight: bold; 
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+#mCSB_1_scrollbar_vertical{
+    width: 14px;
+    position: absolute;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 0px 0px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.material-icons{
+    color: black;
+}
+
+#toggle-button a{
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------
+   VIDEO-CONTENT STYLE
+----------------------------------------------------- */
+
+#body-row{
+    padding: 0px;
+    margin-left: 2%;
+    width: 98%;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+}
+
+
+#mini-sidebar{
+    padding-top: 30px;
+    background-color: white;
+    height: 100vh;
+}
+
+
+.mini-sdbar{
+    margin-bottom: 30px;
+}
+
+#mini-sidebar .mini-sdbar a{
+    text-decoration: none;
+}
+
+#mini-sidebar-image{
+    text-align: left;
+    margin-left: 8px;
+}
+
+.mini-sdbar p{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.home-mini-sdbar{
+    font-size: 12px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 4px;
+}
+
+#video-content-box{
+    padding: 40px 20px 0px 20px;
+    background-color: rgb(250, 250, 250);
+    width: 93.75%;
+}
