@@ -38,11 +38,11 @@ a:focus {
     border: none;
 }
 
-.line {
+.breaking-line {
     width: 100%;
     height: 1px;
-    border-bottom: 1px dashed #ddd;
-    margin: 40px 0;
+    border-bottom: 4px solid #ddd;
+    margin: 10px 0px 20px 0px;
 }
 
 #container-header{
@@ -265,7 +265,7 @@ a:focus {
 #mini-sidebar{
     padding-top: 25px;
     background-color: white;
-    height: 100vh;
+    height: 100%;
 }
 
 
@@ -306,6 +306,11 @@ a:focus {
     font-weight: bold;
     font-style: Roboto;
     margin-bottom: 20px;
+}
+
+.video-section-title #close-button{
+    font-size: 30px;
+    font-weight: 200;
 }
 
 .video-image-col{
@@ -349,12 +354,14 @@ a:focus {
     font-size: 15px;
 }
 
-#video-side-icon{
-    text-align: right;
+#video-lower-text .fa-circle{
+    vertical-align: 3px;
+    font-size: 3px;
 }
 
-.fa-circle{
-    vertical-align: 3px;
+#video-side-icon .material-icons{
+    font-size: 22px;
+    color: rgb(153, 146, 146);
 }
 
 .play-btn {
@@ -375,10 +382,19 @@ a:focus {
 	outline:0;
 }
 
-.fa-play{
+.video-image-col .fa-play{
     visibility: hidden;
 }
 
 .play-btn:hover .fa-play, .play-btn:focus .fa-play{
     visibility: visible;
 }
+
+#video-content-body .row .col-md-3{
+    padding-right: 2px;
+}
+
+#video-content-body .row{
+    padding-bottom: 60px;
+}
+
