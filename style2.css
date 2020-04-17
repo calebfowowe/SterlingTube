@@ -59,4 +59,45 @@
 }
 
 
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
 
+#video-content-body-sub .row .col-md-15{
+    padding-right: 2px;
+}
+
+#video-content-body-sub a{
+    text-decoration: none;
+}
+
+#video-content-body-sub .row{
+    padding: 0px 10px 50px 20px;
+}
+
+.video-image-col-subscription{
+    position: relative;
+}
+
+.video-image-col-subscription img{
+    width: 100%;
+    height: 120px;
+}
+
+.video-image-col-subscription .fa-play{
+    visibility: hidden;
+}
+
+#subscription-title-rhs{
+    float: right;
+    font-size: 15px;
+    color: rgb(86, 140, 241);
+    font-family: sans-serif;
+}
+
+#subscription-title-rhs span{
+    margin-left: 20px;
+}    
