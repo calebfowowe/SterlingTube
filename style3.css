@@ -8,13 +8,13 @@ body {
     background: #fafafa;
 }
 
-p {
+/*p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
-}
+    color: black;
+}*/
 
 a,
 a:hover,
@@ -140,7 +140,6 @@ a:focus {
     left: 0;
 }
 
-
 .overlay {
     display: none;
     position: fixed;
@@ -264,14 +263,14 @@ a:focus {
 
 
 #mini-sidebar{
-    padding-top: 30px;
+    padding-top: 25px;
     background-color: white;
     height: 100vh;
 }
 
 
 .mini-sdbar{
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 #mini-sidebar .mini-sdbar a{
@@ -297,7 +296,89 @@ a:focus {
 }
 
 #video-content-box{
-    padding: 40px 20px 0px 20px;
+    padding: 25px 20px 0px 20px;
     background-color: rgb(250, 250, 250);
     width: 93.75%;
+}
+
+.video-section-title{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: Roboto;
+    margin-bottom: 20px;
+}
+
+.video-image-col{
+    position: relative;
+}
+
+.video-image-col img{
+    width: 100%;
+    height: 150px;
+}
+
+#video-content-body a{
+    text-decoration: none;
+    color: black;
+}
+
+.video-image-text{
+    display: flex;
+    height: 75px;
+    margin-top: 10px;
+}
+
+#video-desc-lhs img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#video-upper-text{
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+    font-family: Roboto;
+}
+
+#video-lower-text{
+    color: rgb(133, 130, 130);
+    margin-bottom: 0px;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+#video-side-icon{
+    text-align: right;
+}
+
+.fa-circle{
+    vertical-align: 3px;
+}
+
+.play-btn {
+	position:absolute;
+	z-index:666;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	background-color:transparent;
+    border:0;
+}
+
+.play-btn:hover {
+	cursor:pointer;
+}
+
+.play-btn:focus {
+	outline:0;
+}
+
+.fa-play{
+    visibility: hidden;
+}
+
+.play-btn:hover .fa-play, .play-btn:focus .fa-play{
+    visibility: visible;
 }

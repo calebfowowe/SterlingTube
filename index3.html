@@ -320,23 +320,64 @@
                 </div>
 
                 <div class="col-sm-11.25" id="video-content-box">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                <div class="line"></div>
+                    <div id="video-content-body">
 
-                <h2>Lorem Ipsum Dolor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="video-section-title">
 
-                <div class="line"></div>
+                            <p>Recommended</p>
 
-                <h2>Lorem Ipsum Dolor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
 
-                <div class="line"></div>
+                        <div class="row">
+                            <div class="col-md-3">
 
-                <h3>Lorem Ipsum Dolor</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <a href="https://www.youtube.com/watch?v=M3bsz6KMFSg">
+                                    <div class="video-image-col">  
+                                        <img src="images/other-images/image 1.png" alt="#">
+
+                                        <button id="play" class="play-btn">
+                                            <i class="fa fa-play" style="font-size:30px;color:rgb(241, 241, 241)"></i>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.youtube.com/watch?v=M3bsz6KMFSg">
+                                    <div class="video-image-text"> 
+                                        <div id="video-desc-lhs">
+                                            <img src="images/icon-images/sterling-logo.jpg" alt="">
+                                        </div>
+
+                                        <div>
+                                            <p id="video-upper-text">
+                                                Sterling OneBank_16 seconds
+                                            </p>
+                                            <p id="video-lower-text">
+                                                Sterling BankNg
+                                            </p>
+                                            <p id="video-lower-text">
+                                                39 views
+                                                <i class="fa fa-circle" style="font-size:3px;text"></i> 3 hours ago
+                                            </p>
+                                        </div>
+
+                                        <div id="video-side-icon">
+                                            <i class="material-icons" style="font-size:22px;color:rgb(153, 146, 146)">more_vert</i>
+                                        </div>
+
+                                    </div>
+                                </a> 
+                               
+                            </div>
+
+                            
+                        </div>
+                        
+        
+                        <div class="line"></div>
+        
+                    </div>
+                    
                 </div>
 
             </div>  
@@ -378,6 +419,8 @@
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
         });
+
+        document.querySelector('.fa-play').addEventListener('click', () => alert('hidden item still triggers events'));
     </script>
 
 
