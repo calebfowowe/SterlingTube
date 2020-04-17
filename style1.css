@@ -288,11 +288,11 @@ a:focus {
     color: black;
 }
 
-.home-mini-sdbar{
+#home-mini-sdbar{
     font-size: 12px;
     color: red;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 4px;
+    margin-left: 0px;
 }
 
 #video-content-box{
