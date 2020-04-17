@@ -258,7 +258,7 @@ a:focus {
     margin-left: 2%;
     width: 98%;
     position: relative;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(245, 244, 244);
 }
 
 
@@ -297,7 +297,7 @@ a:focus {
 
 #video-content-box{
     padding: 25px 20px 0px 20px;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(245, 244, 244);
     width: 93.75%;
 }
 
@@ -342,9 +342,9 @@ a:focus {
 
 #video-upper-text{
     color: black;
-    font-size: 16px;
-    font-weight: 550;
+    font-size: 17px;
     font-family: Roboto;
+    line-height: 1.3;
 }
 
 #video-lower-text{
