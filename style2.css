@@ -101,3 +101,61 @@
 #subscription-title-rhs span{
     margin-left: 20px;
 }    
+
+
+#lib-content-box{
+    padding: 25px 20px 0px 20px;
+    background-color: rgb(245, 244, 244);
+    width: 93.75%;
+}
+
+@media (min-width: 992px) {
+    .col-sm-25 {
+        width: 71.25%;
+        padding-left: 30px;
+        padding-right: 20px;
+        height: 100%;
+    }
+}
+
+#library-rhs{
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+@media (min-width: 992px) {
+    .col-sm-30 {
+        width: 18%;
+    }
+}
+
+#library-rhs-set{
+    text-align: center;
+}
+
+.library-rhs-details div{
+    border-top:1.5px solid #ddd;    border-bottom: 1.5px solid #ddd;
+    padding: 10px 0px;
+}
+
+#lib-rhs-text{
+    float: right;
+}
+
+#lib-text-mid{
+    border-top: none;
+}
+
+.library-rhs-profile p{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+#library-profile-name{
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+    color: black;
+    
+}
+
+
