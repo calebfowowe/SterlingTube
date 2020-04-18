@@ -158,4 +158,20 @@
     
 }
 
+#library-title{
+    margin-top: 30px;
+}
+
+#library-header-font{
+    color: black;
+}
+
+.library-title a{
+    text-decoration: none;
+}
+
+#library-history span{
+    color: black;
+}
+
 
