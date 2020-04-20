@@ -27,6 +27,8 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
@@ -41,8 +43,8 @@
         <nav id="sidebar">
 
             <div class="sidebar-header">
-                <span>
-                    <a href="index.html"><i class="material-icons" style="font-size:22px";>menu</i></a>
+                <span id="menu-side-bar">
+                    <a href="index.html"><i class="material-icons" id="menu-icons">menu</i></a>
                 </span>
                 <span id="nav-sterlinglogo">
                     <a href="index.html" id="sterling-logo-box">
@@ -191,9 +193,9 @@
                     <li id="Library">
                         <a href="Library.html">
                             <span>
-                                <i class="material-icons" style="font-size:22px">video_library</i>
+                                <i class="fa fa-gear" style="font-size:24px"></i>
                             </span>
-                            Library
+                            Settings
                         </a>
                     </li>
                     <li>
@@ -201,7 +203,7 @@
                             <span>
                                 <i class="fa fa-history" style="font-size:22px"></i>
                             </span>
-                            History
+                            Report history
                         </a>
                     </li>
                     <li>
@@ -209,7 +211,7 @@
                             <span>
                                 <i class='fas fa-clock' style='font-size:22px'></i>
                             </span>
-                            Watch Later
+                            Help
                         </a>
                     </li>
                     <li>
@@ -217,10 +219,40 @@
                             <span>
                                 <i class="material-icons" style="font-size:22px">playlist_play</i>
                             </span>
-                            Liked videos
+                            Send feedback
                         </a>
                     </li>
                 </ul>
+
+                <div class="sidebar-footer"> 
+
+                    <div id="sidebar-footer-top">
+                        <span>About</span>
+                        <span>Press</span>
+                        <span>Copyright</span>
+                    </div>
+
+                    <div id="sidebar-footer-mid">
+                        <span>Contact us</span>
+                        <span>Creators</span>
+                    </div>
+
+                    <div id="sidebar-footer-last">
+                        <span>Advertise</span>
+                        <span>Developers</span>
+                    </div>
+
+                    <div>
+                        <span>Terms</span>
+                        <span>Privacy</span>
+                        <span>Policy & Safety</span>
+                    </div>
+
+                    <div>
+                        <span>Test new features</span>
+                    </div>
+                   
+                </div>
              
             </div> 
 
