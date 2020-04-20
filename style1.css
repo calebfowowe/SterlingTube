@@ -58,8 +58,22 @@ a:focus {
     color: black;
     margin-left: 16px;
     text-decoration: none;
-    font-size: 1.75rem;
+    font-size: 1.50rem;
     font-weight: 700;
+}
+
+#sterling-logo-top{
+    color: black;
+    margin-left: 0px;
+    text-decoration: none;
+    font-size: 1.50rem;
+    font-weight: 700;
+}
+
+#sterling-logo-top img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
 
 #sterling-logo img{
@@ -71,7 +85,7 @@ a:focus {
 #sterling-logo-box sup{
     color: rgb(126, 124, 124);
     top: -.9rem;
-    font-size: 12px;
+    font-size: 10px;
     font-family: Roboto, sans-serif;
 }
 
@@ -115,12 +129,12 @@ a:focus {
 ----------------------------------------------------- */
 
 #sidebar {
-    width: 250px;
+    width: 220px;
     position: fixed;
     top: 0;
-    left: -250px;
+    left: -220px;
     height: 100vh;
-    z-index: 999;
+    z-index: 9999;
     background:#fff;
     color: rgb(2, 2, 2);
     transition: all 0.3s;
@@ -138,7 +152,7 @@ a:focus {
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
-    z-index: 998;
+    z-index: 999;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
@@ -147,8 +161,9 @@ a:focus {
     opacity: 1;
 }
 
+
 #sidebar .sidebar-content{
-    position: relative;
+    position: static;
     top: 65px;
 }
 
@@ -156,10 +171,10 @@ a:focus {
     padding: 10px;
     background: #fff;
     border-bottom: 0.5px solid rgb(230, 228, 228);
-    position: fixed;
+    position: sticky;
     top: 0px;
     width: 250px;
-    z-index: 998;
+    z-index: 9999999;
 }
 
 #sidebar .sidebar-header a{
@@ -180,7 +195,8 @@ a:focus {
 #sidebar ul p {
     color: rgb(110, 109, 109);
     margin-left: 10px;
-    font-size: 1.75rem;
+    font-size: 1.40rem;
+    font-weight: bold;
 }
 
 #sidebar ul li a {
@@ -214,8 +230,15 @@ a:focus {
 }
 
 #mCSB_1_scrollbar_vertical{
-    width: 14px;
+    width: 12px;
+    background-color: rgb(235, 233, 233);
+    color: rgb(128, 126, 126);
     position: absolute;
+}
+
+.mCSB_scrollTools {
+    position: absolute;
+    top: 65px;
 }
 
 
